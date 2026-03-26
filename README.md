@@ -2,17 +2,20 @@
 
 ## 📌 Problem Statement
 
-Predict house prices using machine learning techniques based on various features like area, quality, and number of rooms.
+Predict house prices using machine learning based on features like area, quality, and number of rooms.
 
 ## 📊 Dataset
 
 Kaggle - House Prices: Advanced Regression Techniques
 
-## ⚙️ Approach
+## ⚙️ Workflow
 
-* Data cleaning and handling missing values
-* Feature encoding using one-hot encoding
-* Model: Random Forest Regressor
+1. Data Loading
+2. Data Cleaning (handled missing values)
+3. Feature Engineering
+4. Encoding categorical variables
+5. Model Training (Random Forest Regressor)
+6. Evaluation using RMSE
 
 ## 📈 Results
 
@@ -21,7 +24,8 @@ Kaggle - House Prices: Advanced Regression Techniques
 ## 🔍 Key Insights
 
 * OverallQual is the most important feature
-* Living area and number of bathrooms significantly affect price
+* Living area strongly affects house price
+* Garage and basement features also influence price
 
 ## 🛠️ Tech Stack
 
@@ -34,3 +38,4 @@ Kaggle - House Prices: Advanced Regression Techniques
 
 * Hyperparameter tuning
 * Try XGBoost
+* Deploy as web app
